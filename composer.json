@@ -1,0 +1,27 @@
+{
+    "name": "elieldepaula/jwt",
+    "description": "An simple implementation of Jason Web Token (JWT).",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.0",
+        "phpunit/phpunit": "^6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eliel de Paula",
+            "email": "dev@elieldepaula.com.br",
+            "homepage": "http://elieldepaula.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "elieldepaula\\jwt\\": "src"
+        },
+        "classmap": [
+            "src/"
+        ]
+    }
+}
+
